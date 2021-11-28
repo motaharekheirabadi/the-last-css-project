@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* background-color: aquamarine; */
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+
+}
+.login{
+    border: 3px black solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.login span{
+    cursor: pointer;  
+
+}
+.login i{
+    margin-left: 15px;
+}
+.home{
+    margin-right: 30px;
+    /* align-items: center; */
+    cursor: pointer;
+    flex-wrap: wrap;
+
+}
+.home i{
+    margin:20px;
+}
