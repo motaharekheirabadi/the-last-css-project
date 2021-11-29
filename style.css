@@ -1,39 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: "b nazanin";
+  src: url("?view"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.eot?view#iefix")
+      format("embedded-opentype"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.woff?view")
+      format("woff"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.ttf?view")
+      format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+
+.navbar {
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+}
+.login {
+  border: 3px black solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 15px;
+}
+.login span {
+  cursor: pointer;
+}
+.login i {
+  margin-left: 15px;
+}
+.home {
+  margin-right: 30px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.home i {
+  margin: 20px;
+}
+.home i:hover {
+  color: turquoise;
 }
 
-.navbar{
-    /* background-color: aquamarine; */
+/* footer */
+
+.footer {
+  background-color: #636c74;
+  min-height: 270px;
+  display: flex;
+  justify-content:space-around;
+  color: white;
+  align-items: center;
+
+}
+.foot1 {
+ width:30%;
+  margin-bottom: 60px;
+}
+.foot2 {
+  width: 60%;
+}
+.foot1 h3 {
+    font-size: 1.5rem;
+    /* margin: auto; */
     display: flex;
-    min-height: 70px;
-    justify-content: space-between;
+    justify-content: center;
+  margin-bottom: 55px;
+  margin-left: 140px;
+  font-family: "b nazanin";
+}
+.foot1 i {
+  font-size: 2.2rem;
+  margin-left: 60px;
+  cursor: pointer;
+}
+.foot1 i:hover {
+  color: turquoise;
+}
+.foot2 h3 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  font-family: "b nazanin";
+}
+.foot2 p {
+  font-family: "b nazanin";
+  font-size: 1.1rem;
+}
+@media only screen and (max-width: 1100px) {
+  .foot1 h3 {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: auto;
+  }
+  .foot1 i {
     font-size: 1.2rem;
-
-}
-.login{
-    border: 3px black solid;
-    border-radius: 5px;
-    padding: 10px;
-    margin-left: 15px;
-}
-.login span{
-    cursor: pointer;  
-
-}
-.login i{
-    margin-left: 15px;
-}
-.home{
-    margin-right: 30px;
-    /* align-items: center; */
-    cursor: pointer;
-    flex-wrap: wrap;
-
-}
-.home i{
-    margin:20px;
+  }
+ 
 }
