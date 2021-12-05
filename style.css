@@ -120,6 +120,17 @@
   text-align: right;
 }
 
+.icon span{
+  display: none;
+}
+.icon i{
+  transition: all 1.2s;
+}
+.icon i:hover{
+  padding-right: 4rem;
+  
+}
+
 .icon i{
   cursor: pointer;
   /* display: flex; */
